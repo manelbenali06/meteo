@@ -1,0 +1,43 @@
+body {
+    background-image:url(../img/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.box-container {      /*les 4 carrés*/
+    width: 300px;     /*large*/
+    height: 300px;    /*haut*/
+    display: flex;
+    flex-wrap: wrap;  /*authorise que ça reviennet à la ligne*/
+}
+
+.form-control {
+    width: 250px;
+}
+
+.box {                /*chaque carré*/
+    width: 150px;     /*la moitié du box en largeur et hauteur*/
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#city {
+background-color: rgb(0,128,128);
+}
+
+#temp {
+background-color: rgb(25, 203, 203);
+}
+
+#humidity {
+    background-color: rgba(34, 150, 183, 0.239);
+}
+#wind {
+    background-color: rgb(19, 131, 137);
+}
